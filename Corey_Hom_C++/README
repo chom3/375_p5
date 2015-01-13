@@ -1,0 +1,25 @@
+Corey Hom
+CS375 Assignment 5
+
+The program will run on the hardcoded edges.
+The program will construct an MST using Kruskal's algorithm and then print out the 
+separate groups of the graphs.
+
+Then the program will identify what the points are and print out
+the points, and also print out how many points are in each graph.
+To run make the file by typing make, and then run by typing
+./submission
+
+The file will run only for the hardcoded edges.
+There is a nested for loop to identify the connected edges,
+so there is an O(n^2) time complexity.
+
+Attempt at Extra Credit
+Incomplete, but I thought that the algorithm was correct.
+It had small modifications to Dijkstra's algorithm.
+It makes with make, and runs with ./extracredit
+I don't quite understand why for the value 0 (a) the INT_MAX value is printed.
+
+But I would have figured out the min distance value from d to a, then a to i.
+Then I would use the vector<int> path to store the 
+path taken to get to node a and then i to track the shortest path.
